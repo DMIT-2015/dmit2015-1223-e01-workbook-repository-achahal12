@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"ca.nait.dmit.dmit2015firebasedemo"},{"l":"dmit2015.faces"},{"l":"dmit2015.restclient"},{"l":"domain"}];updateSearchResults();

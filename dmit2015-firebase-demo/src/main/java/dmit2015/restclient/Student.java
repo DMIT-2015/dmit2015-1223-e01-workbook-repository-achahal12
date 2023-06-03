@@ -1,5 +1,6 @@
 package dmit2015.restclient;
 
+import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -7,9 +8,11 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Student {
 //@Getter @Setter
+    @NotBlank(message = "First Name value is required")
     private String firstName;
 
  //   @Getter @Setter
+ @NotBlank(message = "Last Name value is required")
     private String lastName;
 
 //    public String getFirstName() {
